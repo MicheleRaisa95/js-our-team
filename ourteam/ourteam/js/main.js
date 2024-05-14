@@ -1,6 +1,6 @@
 'use strict'
 
-// Milestone 0 creo arrey di oggetti
+// MILESTONE 0 creo arrey di oggetti
 
 const teamMembers = [
     {
@@ -47,5 +47,13 @@ const teamMembers = [
     }
 ]
 
+// MILESTONE 1: stampo le informazioni in console
+
+// for...in
+
+for (let info in teamMembers) {
+    const member = teamMembers[info]
+    console.log(`Nome: ${member.nome}, Ruolo: ${member.ruolo}, Foto: ${member.foto}`);
+}
 
 
