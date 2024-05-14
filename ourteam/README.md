@@ -29,3 +29,11 @@ per poi fare un console log
 
 - per stampare le informazioni nel dom creo un elemento HTML (ul)
 - nel mio file js uso un ciclo for e la proprita createElement per creare gli elementi li, ai quali tramite append verranno aggiunti le info da mostrare 
+
+---------------------------------------------------------------
+
+## BONUS 1
+
+- Tramite la funzionee createElement creo l'elelmeto immagine e tramite append la inserisco nella lista
+
+---------------------------------------------------------------
