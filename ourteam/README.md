@@ -28,4 +28,4 @@ per poi fare un console log
 ### MILESTONE 3
 
 - per stampare le informazioni nel dom creo un elemento HTML (ul)
-- nel mio file js uso un ciclo for iniseme ad un if e la proprita createElement per creare gli elementi li, ai quali tramite append verranno aggiunti le info da mostrare 
+- nel mio file js uso un ciclo for e la proprita createElement per creare gli elementi li, ai quali tramite append verranno aggiunti le info da mostrare 
