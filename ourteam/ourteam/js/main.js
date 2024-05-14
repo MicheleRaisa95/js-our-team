@@ -49,11 +49,22 @@ const teamMembers = [
 
 // MILESTONE 1: stampo le informazioni in console
 
-// for...in
+// for...in + console log
 
 for (let info in teamMembers) {
     const member = teamMembers[info]
     console.log(`Nome: ${member.nome}, Ruolo: ${member.ruolo}, Foto: ${member.foto}`);
 }
 
+// MILESTONE 2 STAMPO LE INFORMAZIONI NEL DOM
+
+const  listElement = document.querySelector(".lista");
+
+for (let info = 0; info < teamMembers.length; info++) {
+const member = teamMembers[info];
+const memberInfo = `Nome: ${member.nome}, Ruolo: ${member.ruolo}, Foto: ${member.foto}`;
+const listItem = document.createElement("li");
+listItem.innerText = memberInfo;
+listElement.append(listItem);
+}
 
