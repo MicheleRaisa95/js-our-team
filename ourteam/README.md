@@ -37,3 +37,7 @@ per poi fare un console log
 - Tramite la funzionee createElement creo l'elelmeto immagine e tramite append la inserisco nella lista
 
 ---------------------------------------------------------------
+
+## BONUS 2
+
+- Per il bonus due creo una struttura html e css che in parte sarà implementata anche tramite js 
